@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6125D6371C3E404400084691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6361C3E404400084691 /* main.m */; };
+		6125D63A1C3E404400084691 /* DKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6391C3E404400084691 /* DKSAppDelegate.m */; };
+		6125D63C1C3E404400084691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6125D63B1C3E404400084691 /* Assets.xcassets */; };
+		6125D63F1C3E404400084691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6125D63D1C3E404400084691 /* LaunchScreen.storyboard */; };
+		6125D64A1C3E404400084691 /* LoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6491C3E404400084691 /* LoginDemoTests.m */; };
+		6125D6551C3E404400084691 /* LoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6541C3E404400084691 /* LoginDemoUITests.m */; };
+		6125D6681C3E419A00084691 /* SMS_SDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6125D6631C3E419A00084691 /* SMS_SDKLocalizable.strings */; };
+		6125D6691C3E419A00084691 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125D6651C3E419A00084691 /* MOBFoundation.framework */; };
+		6125D66A1C3E419A00084691 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125D6661C3E419A00084691 /* SMS_SDK.framework */; };
+		6125D6791C3E41CF00084691 /* DKSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D66C1C3E41CF00084691 /* DKSFirstViewController.m */; };
+		6125D67A1C3E41CF00084691 /* DKSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D66E1C3E41CF00084691 /* DKSLoginViewController.m */; };
+		6125D67B1C3E41CF00084691 /* DKSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6125D66F1C3E41CF00084691 /* DKSLoginViewController.xib */; };
+		6125D67C1C3E41CF00084691 /* DKSRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6711C3E41CF00084691 /* DKSRegisterViewController.m */; };
+		6125D67D1C3E41CF00084691 /* DKSRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6125D6721C3E41CF00084691 /* DKSRegisterViewController.xib */; };
+		6125D67E1C3E41CF00084691 /* DKSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6741C3E41CF00084691 /* DKSRootViewController.m */; };
+		6125D67F1C3E41CF00084691 /* DKSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6761C3E41CF00084691 /* DKSSecondViewController.m */; };
+		6125D6801C3E41CF00084691 /* DKSThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125D6781C3E41CF00084691 /* DKSThirdViewController.m */; };
+		6125D6831C3E429C00084691 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125D6821C3E429C00084691 /* libstdc++.tbd */; };
+		6125D6851C3E42A500084691 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125D6841C3E42A500084691 /* JavaScriptCore.framework */; };
+		6125D6871C3E42AD00084691 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125D6861C3E42AD00084691 /* MessageUI.framework */; };
+		6125D6891C3E42B600084691 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125D6881C3E42B600084691 /* libicucore.tbd */; };
+		6125D68B1C3E42BE00084691 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125D68A1C3E42BE00084691 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6125D6461C3E404400084691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6125D62A1C3E404400084691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6125D6311C3E404400084691;
+			remoteInfo = LoginDemo;
+		};
+		6125D6511C3E404400084691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6125D62A1C3E404400084691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6125D6311C3E404400084691;
+			remoteInfo = LoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6125D6321C3E404400084691 /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6125D6361C3E404400084691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6125D6381C3E404400084691 /* DKSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKSAppDelegate.h; sourceTree = "<group>"; };
+		6125D6391C3E404400084691 /* DKSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSAppDelegate.m; sourceTree = "<group>"; };
+		6125D63B1C3E404400084691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6125D63E1C3E404400084691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6125D6401C3E404400084691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6125D6451C3E404400084691 /* LoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6125D6491C3E404400084691 /* LoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginDemoTests.m; sourceTree = "<group>"; };
+		6125D64B1C3E404400084691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6125D6501C3E404400084691 /* LoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6125D6541C3E404400084691 /* LoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginDemoUITests.m; sourceTree = "<group>"; };
+		6125D6561C3E404400084691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6125D6641C3E419A00084691 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SMS_SDKLocalizable.strings; sourceTree = "<group>"; };
+		6125D6651C3E419A00084691 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		6125D6661C3E419A00084691 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		6125D6671C3E419A00084691 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SMS_SDKLocalizable.strings"; sourceTree = "<group>"; };
+		6125D66B1C3E41CF00084691 /* DKSFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSFirstViewController.h; sourceTree = "<group>"; };
+		6125D66C1C3E41CF00084691 /* DKSFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSFirstViewController.m; sourceTree = "<group>"; };
+		6125D66D1C3E41CF00084691 /* DKSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSLoginViewController.h; sourceTree = "<group>"; };
+		6125D66E1C3E41CF00084691 /* DKSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSLoginViewController.m; sourceTree = "<group>"; };
+		6125D66F1C3E41CF00084691 /* DKSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKSLoginViewController.xib; sourceTree = "<group>"; };
+		6125D6701C3E41CF00084691 /* DKSRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSRegisterViewController.h; sourceTree = "<group>"; };
+		6125D6711C3E41CF00084691 /* DKSRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSRegisterViewController.m; sourceTree = "<group>"; };
+		6125D6721C3E41CF00084691 /* DKSRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKSRegisterViewController.xib; sourceTree = "<group>"; };
+		6125D6731C3E41CF00084691 /* DKSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSRootViewController.h; sourceTree = "<group>"; };
+		6125D6741C3E41CF00084691 /* DKSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSRootViewController.m; sourceTree = "<group>"; };
+		6125D6751C3E41CF00084691 /* DKSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSSecondViewController.h; sourceTree = "<group>"; };
+		6125D6761C3E41CF00084691 /* DKSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSSecondViewController.m; sourceTree = "<group>"; };
+		6125D6771C3E41CF00084691 /* DKSThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSThirdViewController.h; sourceTree = "<group>"; };
+		6125D6781C3E41CF00084691 /* DKSThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSThirdViewController.m; sourceTree = "<group>"; };
+		6125D6821C3E429C00084691 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		6125D6841C3E42A500084691 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6125D6861C3E42AD00084691 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6125D6881C3E42B600084691 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		6125D68A1C3E42BE00084691 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6125D62F1C3E404400084691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6125D68B1C3E42BE00084691 /* libz.tbd in Frameworks */,
+				6125D6891C3E42B600084691 /* libicucore.tbd in Frameworks */,
+				6125D6871C3E42AD00084691 /* MessageUI.framework in Frameworks */,
+				6125D6851C3E42A500084691 /* JavaScriptCore.framework in Frameworks */,
+				6125D6831C3E429C00084691 /* libstdc++.tbd in Frameworks */,
+				6125D6691C3E419A00084691 /* MOBFoundation.framework in Frameworks */,
+				6125D66A1C3E419A00084691 /* SMS_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6125D6421C3E404400084691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6125D64D1C3E404400084691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6125D6291C3E404400084691 = {
+			isa = PBXGroup;
+			children = (
+				6125D68C1C3E42C500084691 /* framwork */,
+				6125D6621C3E419A00084691 /* SMS_SDK */,
+				6125D6341C3E404400084691 /* LoginDemo */,
+				6125D6481C3E404400084691 /* LoginDemoTests */,
+				6125D6531C3E404400084691 /* LoginDemoUITests */,
+				6125D6331C3E404400084691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6125D6331C3E404400084691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6125D6321C3E404400084691 /* LoginDemo.app */,
+				6125D6451C3E404400084691 /* LoginDemoTests.xctest */,
+				6125D6501C3E404400084691 /* LoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6125D6341C3E404400084691 /* LoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6125D6381C3E404400084691 /* DKSAppDelegate.h */,
+				6125D6391C3E404400084691 /* DKSAppDelegate.m */,
+				6125D6731C3E41CF00084691 /* DKSRootViewController.h */,
+				6125D6741C3E41CF00084691 /* DKSRootViewController.m */,
+				6125D66B1C3E41CF00084691 /* DKSFirstViewController.h */,
+				6125D66C1C3E41CF00084691 /* DKSFirstViewController.m */,
+				6125D6751C3E41CF00084691 /* DKSSecondViewController.h */,
+				6125D6761C3E41CF00084691 /* DKSSecondViewController.m */,
+				6125D6771C3E41CF00084691 /* DKSThirdViewController.h */,
+				6125D6781C3E41CF00084691 /* DKSThirdViewController.m */,
+				6125D6811C3E425F00084691 /* login */,
+				6125D63B1C3E404400084691 /* Assets.xcassets */,
+				6125D63D1C3E404400084691 /* LaunchScreen.storyboard */,
+				6125D6401C3E404400084691 /* Info.plist */,
+				6125D6351C3E404400084691 /* Supporting Files */,
+			);
+			path = LoginDemo;
+			sourceTree = "<group>";
+		};
+		6125D6351C3E404400084691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6125D6361C3E404400084691 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6125D6481C3E404400084691 /* LoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6125D6491C3E404400084691 /* LoginDemoTests.m */,
+				6125D64B1C3E404400084691 /* Info.plist */,
+			);
+			path = LoginDemoTests;
+			sourceTree = "<group>";
+		};
+		6125D6531C3E404400084691 /* LoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6125D6541C3E404400084691 /* LoginDemoUITests.m */,
+				6125D6561C3E404400084691 /* Info.plist */,
+			);
+			path = LoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		6125D6621C3E419A00084691 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				6125D6631C3E419A00084691 /* SMS_SDKLocalizable.strings */,
+				6125D6651C3E419A00084691 /* MOBFoundation.framework */,
+				6125D6661C3E419A00084691 /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		6125D6811C3E425F00084691 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				6125D66D1C3E41CF00084691 /* DKSLoginViewController.h */,
+				6125D66E1C3E41CF00084691 /* DKSLoginViewController.m */,
+				6125D66F1C3E41CF00084691 /* DKSLoginViewController.xib */,
+				6125D6701C3E41CF00084691 /* DKSRegisterViewController.h */,
+				6125D6711C3E41CF00084691 /* DKSRegisterViewController.m */,
+				6125D6721C3E41CF00084691 /* DKSRegisterViewController.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		6125D68C1C3E42C500084691 /* framwork */ = {
+			isa = PBXGroup;
+			children = (
+				6125D68A1C3E42BE00084691 /* libz.tbd */,
+				6125D6881C3E42B600084691 /* libicucore.tbd */,
+				6125D6861C3E42AD00084691 /* MessageUI.framework */,
+				6125D6841C3E42A500084691 /* JavaScriptCore.framework */,
+				6125D6821C3E429C00084691 /* libstdc++.tbd */,
+			);
+			name = framwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6125D6311C3E404400084691 /* LoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6125D6591C3E404400084691 /* Build configuration list for PBXNativeTarget "LoginDemo" */;
+			buildPhases = (
+				6125D62E1C3E404400084691 /* Sources */,
+				6125D62F1C3E404400084691 /* Frameworks */,
+				6125D6301C3E404400084691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginDemo;
+			productName = LoginDemo;
+			productReference = 6125D6321C3E404400084691 /* LoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6125D6441C3E404400084691 /* LoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6125D65C1C3E404400084691 /* Build configuration list for PBXNativeTarget "LoginDemoTests" */;
+			buildPhases = (
+				6125D6411C3E404400084691 /* Sources */,
+				6125D6421C3E404400084691 /* Frameworks */,
+				6125D6431C3E404400084691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6125D6471C3E404400084691 /* PBXTargetDependency */,
+			);
+			name = LoginDemoTests;
+			productName = LoginDemoTests;
+			productReference = 6125D6451C3E404400084691 /* LoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6125D64F1C3E404400084691 /* LoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6125D65F1C3E404400084691 /* Build configuration list for PBXNativeTarget "LoginDemoUITests" */;
+			buildPhases = (
+				6125D64C1C3E404400084691 /* Sources */,
+				6125D64D1C3E404400084691 /* Frameworks */,
+				6125D64E1C3E404400084691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6125D6521C3E404400084691 /* PBXTargetDependency */,
+			);
+			name = LoginDemoUITests;
+			productName = LoginDemoUITests;
+			productReference = 6125D6501C3E404400084691 /* LoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6125D62A1C3E404400084691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DKS;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = aDu;
+				TargetAttributes = {
+					6125D6311C3E404400084691 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					6125D6441C3E404400084691 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6125D6311C3E404400084691;
+					};
+					6125D64F1C3E404400084691 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6125D6311C3E404400084691;
+					};
+				};
+			};
+			buildConfigurationList = 6125D62D1C3E404400084691 /* Build configuration list for PBXProject "LoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 6125D6291C3E404400084691;
+			productRefGroup = 6125D6331C3E404400084691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6125D6311C3E404400084691 /* LoginDemo */,
+				6125D6441C3E404400084691 /* LoginDemoTests */,
+				6125D64F1C3E404400084691 /* LoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6125D6301C3E404400084691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6125D63C1C3E404400084691 /* Assets.xcassets in Resources */,
+				6125D67D1C3E41CF00084691 /* DKSRegisterViewController.xib in Resources */,
+				6125D67B1C3E41CF00084691 /* DKSLoginViewController.xib in Resources */,
+				6125D6681C3E419A00084691 /* SMS_SDKLocalizable.strings in Resources */,
+				6125D63F1C3E404400084691 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6125D6431C3E404400084691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6125D64E1C3E404400084691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6125D62E1C3E404400084691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6125D6791C3E41CF00084691 /* DKSFirstViewController.m in Sources */,
+				6125D67F1C3E41CF00084691 /* DKSSecondViewController.m in Sources */,
+				6125D67A1C3E41CF00084691 /* DKSLoginViewController.m in Sources */,
+				6125D63A1C3E404400084691 /* DKSAppDelegate.m in Sources */,
+				6125D6371C3E404400084691 /* main.m in Sources */,
+				6125D67C1C3E41CF00084691 /* DKSRegisterViewController.m in Sources */,
+				6125D67E1C3E41CF00084691 /* DKSRootViewController.m in Sources */,
+				6125D6801C3E41CF00084691 /* DKSThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6125D6411C3E404400084691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6125D64A1C3E404400084691 /* LoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6125D64C1C3E404400084691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6125D6551C3E404400084691 /* LoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6125D6471C3E404400084691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6125D6311C3E404400084691 /* LoginDemo */;
+			targetProxy = 6125D6461C3E404400084691 /* PBXContainerItemProxy */;
+		};
+		6125D6521C3E404400084691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6125D6311C3E404400084691 /* LoginDemo */;
+			targetProxy = 6125D6511C3E404400084691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6125D63D1C3E404400084691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6125D63E1C3E404400084691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6125D6631C3E419A00084691 /* SMS_SDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6125D6641C3E419A00084691 /* en */,
+				6125D6671C3E419A00084691 /* zh-Hans */,
+			);
+			name = SMS_SDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6125D6571C3E404400084691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6125D6581C3E404400084691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6125D65A1C3E404400084691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				INFOPLIST_FILE = LoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6125D65B1C3E404400084691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				INFOPLIST_FILE = LoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6125D65D1C3E404400084691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginDemo.app/LoginDemo";
+			};
+			name = Debug;
+		};
+		6125D65E1C3E404400084691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginDemo.app/LoginDemo";
+			};
+			name = Release;
+		};
+		6125D6601C3E404400084691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6125D6611C3E404400084691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.LoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6125D62D1C3E404400084691 /* Build configuration list for PBXProject "LoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6125D6571C3E404400084691 /* Debug */,
+				6125D6581C3E404400084691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6125D6591C3E404400084691 /* Build configuration list for PBXNativeTarget "LoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6125D65A1C3E404400084691 /* Debug */,
+				6125D65B1C3E404400084691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6125D65C1C3E404400084691 /* Build configuration list for PBXNativeTarget "LoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6125D65D1C3E404400084691 /* Debug */,
+				6125D65E1C3E404400084691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6125D65F1C3E404400084691 /* Build configuration list for PBXNativeTarget "LoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6125D6601C3E404400084691 /* Debug */,
+				6125D6611C3E404400084691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6125D62A1C3E404400084691 /* Project object */;
+}
